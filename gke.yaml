@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: gcp-devops-flow
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gcp
+  template:
+    metadata:
+      labels:
+        app: gcp
+    spec:
+      containers:
+      - name: gcp-devops-flow
+        image: gcr.io/My-First-Project/test-gcpdevopsflow:latest
+        ports:
+        -  containerPort: 5000
+        env:
+          - name: PORT
+            value: "5000"
