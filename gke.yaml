@@ -13,8 +13,8 @@ spec:
         app: gcp
     spec:
       containers:
-      - name: gcp-devops-flow
-        image: gcr.io/My-First-Project/test-gcpdevopsflow:latest
+      - name: gcpdevopsflow
+        image: gcr.io/My-First-Project/gcpdevopsflow:latest
         ports:
         -  containerPort: 5000
         env:

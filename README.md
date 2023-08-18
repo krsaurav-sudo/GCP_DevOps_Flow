@@ -12,7 +12,7 @@ This repository demonstrates the implementation of the DevOps lifecycle using a 
 - CI/CD
 - Deployment
 - Contributing
-- License
+- Licenses
 
 # Introduction
 DevOps is a set of practices that combine software development (Dev) and IT operations (Ops) aiming to shorten the systems development life cycle and provide continuous delivery with high software quality. This repository demonstrates the implementation of the DevOps principles using a Flask application as an example.
